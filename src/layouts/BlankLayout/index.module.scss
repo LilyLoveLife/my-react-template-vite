@@ -1,0 +1,13 @@
+
+.root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    .center { 
+        max-width: 1920px;
+        display: flex;
+        height: 100vh;
+        width: px2rem(1280px);
+        flex-direction: column;
+    } 
+}

@@ -1,0 +1,13 @@
+
+.tag {
+    display: inline-block;
+    padding: 0 8PX;
+    font-size: 14PX;
+    line-height: 22PX;
+    color: #262626;
+    margin-top: 4PX;
+    border-radius: 2PX;
+    &:not(:first-child) {
+        margin-left: 8PX;
+    }
+}

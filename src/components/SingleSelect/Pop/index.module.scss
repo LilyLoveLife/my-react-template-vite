@@ -1,0 +1,22 @@
+
+.popup-body {
+  display: flex;
+  flex-direction: column;
+}
+.list-wrap {
+  overflow-y: auto;
+}
+
+.opts {
+  margin-bottom: 30PX;
+  padding: 4PX;
+  display: flex;
+  justify-content: space-between;
+  // border-bottom: 1PX solid rgb(238, 238, 238);
+  .opt {
+    display: inline-block;
+    font-size: 15PX;
+    padding: 8px;
+    color:#1677ff;
+  }
+}

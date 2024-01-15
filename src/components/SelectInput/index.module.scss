@@ -1,0 +1,29 @@
+
+.select-input {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--common-height, 36px);
+  line-height: var(--common-height, 36px);
+  // margin: 16px 16px;
+  background: #ffffff;
+  border-radius: var(--common-border-radius, 4px);
+  padding: 0 8px;
+  .selectedText {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: var(--adm-font-size-6);
+  }
+  .arrowDown {
+    transform: rotate(0deg);
+    transition: all 0.2s;
+  }
+  .arrowUp {
+    transform: rotate(180deg);
+    transition: all 0.2s;
+  }
+}
